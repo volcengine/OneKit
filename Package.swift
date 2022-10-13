@@ -8,9 +8,9 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-                    name: "OneKitService",
+                    name: "OneKit",
                     targets: [
-                        "OneKitService"
+                        "OneKit"
                     ]
                 )
     ],
@@ -20,8 +20,8 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-                    name: "OneKitService",
-                    url: "https://sf3-ttcdn-tos.pstatp.com/obj/volcengine/OneKitService.xcframework.zip", checksum: "d92b556b5f99606d7bdb8913e72333f5cf49e144bfbb6a7f20a37b470568d602"
+                    name: "OneKit",
+                    url: "https://sf3-ttcdn-tos.pstatp.com/obj/volcengine/OneKit/xcframework/OneKit.zip, checksum: "d670b3ecd668188a6498d9c2a17be7e5bdc207efa33c053fc7fc0c10646fa9ce"
                 )
     ]
 )
