@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "OneKit",
-                    url: "https://sf3-ttcdn-tos.pstatp.com/obj/volcengine/OneKit/xcframework/OneKit.zip, checksum: "d670b3ecd668188a6498d9c2a17be7e5bdc207efa33c053fc7fc0c10646fa9ce"
+                    url: "https://sf3-ttcdn-tos.pstatp.com/obj/volcengine/OneKit/xcframework/OneKit.zip", checksum: "d670b3ecd668188a6498d9c2a17be7e5bdc207efa33c053fc7fc0c10646fa9ce"
                 )
     ]
 )
